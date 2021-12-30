@@ -189,7 +189,7 @@
   }
   .mv .mv-copy .mv-copy-ttl h1 {
     font-size: 1.8rem;
-    letter-spacing: .03rem;
+    letter-spacing: 0;
   }
 
   .message .message-inner {
