@@ -152,7 +152,7 @@
     display: block;
     position: absolute;
     bottom: 8rem;
-    left: calc(50% - 26.1rem / 2);
+    left: calc(50% - 23.7rem / 2);
   }
 }
 @media screen and (max-width: 599px) {
