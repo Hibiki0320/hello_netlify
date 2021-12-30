@@ -1,0 +1,270 @@
+@media screen and (max-width: 1024px) {
+  header {
+    height: 11rem;
+  }
+  header .header-inner .header-logo a img {
+    width: 70%;
+    height: 70%;
+  }
+  header .header-inner .header-right p {
+    font-size: 1.2rem;
+  }
+  header .header-inner .header-right .phone img {
+    width: 70%;
+    height: 70%;
+    margin-top: 1.2rem;
+  }
+  header .header-inner .header-right .phone p {
+    font-size: 2rem;
+  }
+
+  .mv {
+    height: 64rem;
+    background-position: right 24% bottom 0%;
+  }
+  .mv .mv-copy {
+    top: 28%;
+    left: 8%;
+  }
+  .mv .mv-copy .mv-copy-ttl {
+    width: 8rem;
+    height: 44rem;
+    padding: 1.6rem;
+    margin-right: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .mv .mv-copy .mv-copy-ttl h1 {
+    font-size: 2.2rem;
+    letter-spacing: 0.04rem;
+  }
+
+  .message {
+    height: auto;
+  }
+  .message .message-inner {
+    padding: 8rem 0;
+    display: block;
+  }
+  .message .message-inner .message-txt {
+    width: 100%;
+    text-align: center;
+  }
+  .message .message-inner .message-txt .message-ttl {
+    display: block;
+    margin: 0 auto;
+  }
+  .message .message-inner .message-txt .message-ttl h2 {
+    margin-bottom: 2rem;
+  }
+  .message .message-inner .message-txt .message-sub {
+    margin: 2rem 0;
+  }
+  .message .message-inner img {
+    width: 56rem;
+    margin-left: calc(50% - 28rem);
+  }
+
+  .contents {
+    height: auto;
+  }
+  .contents .contents-inner .therapy {
+    margin: 0 auto;
+  }
+  .contents .contents-inner .therapy h2 {
+    margin-bottom: 4rem;
+  }
+  .contents .contents-inner .therapy .therapy-items {
+    display: block;
+    padding-left: calc(50% - 19rem);
+  }
+  .contents .contents-inner .therapy .therapy-items .therapy-items-box {
+    margin: 0 0 4rem;
+    width: 38rem;
+    height: auto;
+  }
+  .contents .contents-inner .info h2 {
+    margin-bottom: 4rem;
+  }
+  .contents .contents-inner .info .updates {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .contents .contents-inner .info .updates .updates-item {
+    height: auto;
+    padding: 2rem 0;
+    display: block;
+    position: relative;
+  }
+  .contents .contents-inner .info .updates .updates-item .date {
+    margin-bottom: 2rem;
+  }
+  .contents .contents-inner .info .updates .updates-item span {
+    position: absolute;
+    top: 12%;
+    left: 16%;
+  }
+
+  .contact {
+    height: auto;
+  }
+  .contact .contact-inner {
+    padding: 8rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    position: relative;
+  }
+  .contact .contact-inner .contact-inner-map {
+    margin: 8rem auto;
+  }
+  .contact .contact-inner .contact-inner-map iframe {
+    width: 48rem;
+  }
+  .contact .contact-inner .contact-inner-right {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .contact .contact-inner .contact-inner-right .phone {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact .contact-inner .contact-inner-right .business-hours {
+    padding-left: calc(50% - 40.5rem / 2);
+  }
+  .contact .contact-inner .contact-inner-right .small-pc {
+    display: none;
+  }
+  .contact .contact-inner .small-mobile {
+    display: block;
+    position: absolute;
+    bottom: 8rem;
+    left: calc(50% - 26.1rem / 2);
+  }
+}
+@media screen and (max-width: 599px) {
+  header {
+    height: auto;
+  }
+  header .header-inner {
+    padding: 2rem 0;
+    display: block;
+    text-align: center;
+  }
+  header .header-inner .header-logo a img {
+    width: 20rem;
+    margin-bottom: 1.6rem;
+  }
+  header .header-inner .header-right .reception-time {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  header .header-inner .header-right .phone {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .mv .mv-copy {
+    top: 40%;
+  }
+  .mv .mv-copy .mv-copy-ttl {
+    width: 6rem;
+    height: 36rem;
+    margin-right: 1rem;
+  }
+  .mv .mv-copy .mv-copy-ttl h1 {
+    font-size: 1.8rem;
+  }
+
+  .message .message-inner {
+    padding: 4rem 0;
+  }
+  .message .message-inner .message-txt .message-sub {
+    font-size: 1.2rem;
+  }
+  .message .message-inner img {
+    width: 24rem;
+    margin-left: calc(50% - 12rem);
+  }
+
+  .contents .contents-inner {
+    padding: 4rem 0;
+  }
+  .contents .contents-inner .therapy h2 {
+    margin-bottom: 3rem;
+  }
+  .contents .contents-inner .therapy h3 {
+    font-size: 1.1rem;
+  }
+  .contents .contents-inner .therapy .therapy-items {
+    padding-left: 0;
+    margin: 0 auto;
+  }
+  .contents .contents-inner .therapy .therapy-items .therapy-items-box {
+    width: 90%;
+    margin: 0 auto 2rem;
+  }
+  .contents .contents-inner .therapy .therapy-items .therapy-items-box:last-child {
+    margin: 0 auto 2rem;
+  }
+  .contents .contents-inner .info h2 {
+    margin: 4rem 0;
+  }
+  .contents .contents-inner .info .updates {
+    padding: 2.95rem 4.4rem 4.6rem;
+  }
+  .contents .contents-inner .info .updates .updates-item p {
+    line-height: 1.6;
+  }
+  .contents .contents-inner .info .updates .updates-item span {
+    position: absolute;
+    top: 12%;
+    left: 48%;
+  }
+
+  .contact .contact-inner .contact-inner-map {
+    margin: 4rem auto;
+  }
+  .contact .contact-inner .contact-inner-map iframe {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+  .contact .contact-inner .contact-inner-right {
+    width: 90%;
+  }
+  .contact .contact-inner .contact-inner-right .business-hours {
+    font-size: 1.2em;
+  }
+  .contact .contact-inner .contact-inner-right .business-hours .business-hours-open {
+    display: block;
+  }
+  .contact .contact-inner .contact-inner-right .business-hours .business-hours-open .business-hours-open-right {
+    height: 6.4rem;
+    margin-top: 1rem;
+    padding-left: 2rem;
+    text-align: left;
+  }
+  .contact .contact-inner .contact-inner-right .business-hours .business-hours-open .business-hours-open-right span {
+    margin: 0 1.2rem;
+  }
+  .contact .contact-inner .contact-inner-right .business-hours .business-hours-close {
+    height: 1.4rem;
+    line-height: 1;
+  }
+}

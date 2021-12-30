@@ -1,0 +1,387 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #444444;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+mark {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, #99E5A5));
+  background: linear-gradient(transparent 70%, #99E5A5 70%);
+}
+
+header {
+  height: 13rem;
+}
+header .header-inner {
+  max-width: 118rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 2rem;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .header-inner .header-logo a img {
+  width: 26.3rem;
+  height: 7.3rem;
+}
+header .header-inner .header-right .reception-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header .header-inner .header-right .reception-time p {
+  font-size: 1.4rem;
+}
+header .header-inner .header-right .phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+header .header-inner .header-right .phone img {
+  width: 2.436rem;
+  height: 2.457rem;
+  margin-top: 1.493rem;
+  margin-right: 0.478rem;
+}
+header .header-inner .header-right .phone p {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #21A937;
+  line-height: 3.5rem;
+  margin-top: 0.7rem;
+}
+
+.mv {
+  height: 94.7rem;
+  background-image: url(images/fv.png);
+  background-size: cover;
+  background-position: right;
+  position: relative;
+}
+.mv .mv-copy {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  position: absolute;
+  top: 8%;
+  left: 16%;
+}
+.mv .mv-copy .mv-copy-ttl {
+  width: 10.2rem;
+  height: 56.5rem;
+  background-color: #fff;
+  padding: 1.8rem 3.7rem 0;
+  margin-right: 6rem;
+}
+.mv .mv-copy .mv-copy-ttl h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+}
+.mv .mv-copy .mv-copy-ttl h1 span {
+  color: #21A937;
+  font-weight: bold;
+}
+
+.message {
+  height: 66.4rem;
+  background-color: #fff;
+}
+.message .message-inner {
+  max-width: 118rem;
+  padding-top: 16.2rem;
+  padding-left: 3.1rem;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.message .message-inner .message-txt {
+  width: 45.9rem;
+}
+.message .message-inner .message-txt .message-ttl {
+  height: 10.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 3.1rem;
+  margin-bottom: 3.7rem;
+}
+.message .message-inner .message-txt .message-ttl h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 3.5rem;
+}
+.message .message-inner .message-txt .message-sub {
+  font-size: 1.6rem;
+  line-height: 3.5rem;
+}
+.message .message-inner img {
+  width: auto;
+  height: auto;
+  margin-left: 4.4rem;
+}
+
+.contents {
+  height: 152rem;
+  background-color: #F5FCF8;
+}
+.contents .contents-inner {
+  max-width: 118rem;
+  padding: 7.8rem 0 11.2rem;
+  margin: 0 auto;
+}
+.contents .contents-inner .therapy {
+  text-align: center;
+  margin-bottom: 8.1rem;
+}
+.contents .contents-inner .therapy h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 7rem;
+}
+.contents .contents-inner .therapy h3 {
+  font-size: 1.6rem;
+  margin-bottom: 3.4rem;
+}
+.contents .contents-inner .therapy .therapy-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.contents .contents-inner .therapy .therapy-items .therapy-items-box {
+  margin-right: 2rem;
+  width: calc(33.33333% - 2rem * 2 / 3);
+  border: 2px solid #C9C9C9;
+  border-radius: 1rem;
+  background-color: #fff;
+  padding: 4rem 3rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.contents .contents-inner .therapy .therapy-items .therapy-items-box:nth-child(3) {
+  margin-right: 0;
+}
+.contents .contents-inner .therapy .therapy-items .therapy-items-box h4 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 4.5rem;
+}
+.contents .contents-inner .therapy .therapy-items .therapy-items-box h5 {
+  font-size: 1.6rem;
+  text-align: left;
+  line-height: 2.4;
+}
+.contents .contents-inner .therapy .therapy-items .therapy-items-box img {
+  width: 18.7rem;
+  height: 18.7rem;
+  vertical-align: top;
+}
+.contents .contents-inner .info h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 7rem;
+  text-align: center;
+}
+.contents .contents-inner .info .updates {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  border-radius: 3rem;
+  padding: 2.95rem 6.6rem 4.6rem;
+}
+.contents .contents-inner .info .updates .updates-item {
+  height: 6.3rem;
+  border-bottom: 2px solid #E7E7E7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contents .contents-inner .info .updates .updates-item p {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.contents .contents-inner .info .updates .updates-item .date {
+  color: #21A937;
+}
+.contents .contents-inner .info .updates .updates-item span {
+  display: block;
+  width: 8rem;
+  height: 2.5rem;
+  background-color: #444444;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+  text-align: center;
+  margin: 0 3rem;
+}
+.contents .contents-inner .info .updates .more {
+  margin-top: 3.95rem;
+  text-align: right;
+}
+
+.contact {
+  height: 79.9rem;
+  background-color: #fff;
+}
+.contact .contact-inner {
+  max-width: 118rem;
+  padding: 19.6rem 0 16.3rem;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contact .contact-inner .contact-inner-map {
+  margin-right: 3.4rem;
+}
+.contact .contact-inner .contact-inner-map iframe {
+  width: 60.8rem;
+  height: 44rem;
+}
+.contact .contact-inner .contact-inner-right {
+  width: 100%;
+}
+.contact .contact-inner .contact-inner-right img {
+  width: 26.3rem;
+  height: 7.3rem;
+  margin-bottom: 2.5rem;
+}
+.contact .contact-inner .contact-inner-right .address {
+  font-size: 1.6rem;
+}
+.contact .contact-inner .contact-inner-right .address span {
+  margin-right: 1.6rem;
+}
+.contact .contact-inner .contact-inner-right .phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contact .contact-inner .contact-inner-right .phone img {
+  width: 2.436rem;
+  height: 2.457rem;
+  margin: 3.221rem 0.514rem 3.171rem 0.45rem;
+}
+.contact .contact-inner .contact-inner-right .phone a p {
+  font-size: 2.4rem;
+  color: #21A937;
+  font-weight: bold;
+  line-height: 3.5rem;
+  margin-top: 2.5rem;
+}
+.contact .contact-inner .contact-inner-right .business-hours {
+  font-size: 1.4rem;
+  height: 18.2rem;
+  margin-left: 0.45rem;
+  margin-bottom: 2.15rem;
+  border-top: 2px solid #E7E7E7;
+  border-bottom: 2px solid #E7E7E7;
+  padding: 1.9rem 0 1.9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.contact .contact-inner .contact-inner-right .business-hours .business-hours-open {
+  height: 9.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contact .contact-inner .contact-inner-right .business-hours .business-hours-open .business-hours-open-left {
+  width: 8.45rem;
+  padding: 0.25rem 0 0 0.05rem;
+  border-right: 2px solid #E7E7E7;
+}
+.contact .contact-inner .contact-inner-right .business-hours .business-hours-open .business-hours-open-right {
+  padding: 0.25rem 0 0.65rem 2.85rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.contact .contact-inner .contact-inner-right .business-hours .business-hours-open .business-hours-open-right span {
+  margin: 0 1.7rem 0 2.3rem;
+}
+.contact .contact-inner .contact-inner-right .business-hours .business-hours-close {
+  height: 2.9rem;
+  line-height: 2.9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contact .contact-inner .contact-inner-right .business-hours .business-hours-close .business-hours-close-left {
+  width: 8.45rem;
+  padding-left: 0.05rem;
+  border-right: 2px solid #E7E7E7;
+}
+.contact .contact-inner .contact-inner-right .business-hours .business-hours-close .business-hours-close-right {
+  padding-left: 2.85rem;
+}
+.contact .contact-inner .contact-inner-right small {
+  font-size: 1.1rem;
+}
+.contact .contact-inner .contact-inner-right small p {
+  text-align: right;
+}
+.contact .contact-inner .small-mobile {
+  display: none;
+}
